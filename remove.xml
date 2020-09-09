@@ -74,4 +74,14 @@
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
+  <!-- Build -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+
+  <!-- System -->
+  <remove-project name="platform/system/core" />
+
+  <!-- Framework -->
+  <remove-project name="platform/frameworks/base" />
+
 </manifest>

@@ -25,4 +25,7 @@
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="staging" />
 
+  <!-- Vendor -->
+  <project path="vendor/aosap" name="platform_vendor_aosap" remote="staging" />
+
 </manifest>

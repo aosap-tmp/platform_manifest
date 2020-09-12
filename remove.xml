@@ -87,4 +87,7 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/native" />
 
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/libhardware" />
+
 </manifest>

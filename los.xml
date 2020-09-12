@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- external -->
+  <project path="external/json-c" name="android_external_json-c" remote="los" revision="lineage-17.1" />
+
+</manifest>

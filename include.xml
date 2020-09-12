@@ -5,6 +5,7 @@
   <project path="manifest" name="platform_manifest" remote="staging" />
 
   <!-- Build -->
+  <project path="bionic" name="platform_bionic" remote="staging" />
   <project path="build/make" name="platform_build" remote="staging" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />

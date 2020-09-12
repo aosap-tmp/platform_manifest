@@ -81,6 +81,7 @@
 
   <!-- System -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/bt" />
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />

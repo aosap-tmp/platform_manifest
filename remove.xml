@@ -90,4 +90,7 @@
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
 
+  <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+
 </manifest>

@@ -34,4 +34,7 @@
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="staging" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="platform_prebuilts_abi-dumps_vndk" remote="staging" />
+
 </manifest>

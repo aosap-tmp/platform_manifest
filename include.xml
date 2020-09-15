@@ -35,6 +35,7 @@
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="staging" />
+  <project path="hardware/aosap/interfaces" name="platform_hardware_aosap_interfaces" remote="staging" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="platform_prebuilts_abi-dumps_vndk" remote="staging" />

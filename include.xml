@@ -23,6 +23,7 @@
   <!-- System -->
   <project path="system/core" name="platform_system_core" remote="staging" />
   <project path="system/bt" name="platform_system_bt" remote="staging" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="staging" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="staging" />

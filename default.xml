@@ -847,5 +847,5 @@
   <include name="remove.xml" />
   <include name="include.xml" />
   <include name="los.xml" />
-
+  <include name="hardware.xml" />
 </manifest>

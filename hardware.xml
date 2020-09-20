@@ -44,7 +44,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" revision="lineage-17.1" />
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="los" revision="lineage-17.1" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="los" revision="lineage-17.1" />
-  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" revision="lineage-17.1" />
+  <project path="vendor/qcom/opensource/audio" name="ArrowOS/android_vendor_qcom_opensource_audio" remote="github" revision="arrow-11.0" />
 
   <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="los" revision="lineage-17.1" />
 

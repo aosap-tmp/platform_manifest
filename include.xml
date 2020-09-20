@@ -32,7 +32,6 @@
 
   <!-- Vendor -->
   <project path="vendor/aosap" name="platform_vendor_aosap" remote="staging" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="staging" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="staging" />

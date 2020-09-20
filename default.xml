@@ -25,6 +25,10 @@
   <remote name="los"
            fetch="https://github.com/LineageOS/" />
 
+  <remote name="arrow"
+           fetch="https://github.com/ArrowOS/"
+           revision="refs/heads/arrow-11.0" />
+
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />

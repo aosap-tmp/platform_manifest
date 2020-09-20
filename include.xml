@@ -6,7 +6,7 @@
 
   <!-- Build -->
   <project path="bionic" name="platform_bionic" remote="staging" />
-  <project path="build/make" name="platform_build" remote="staging" groups="pdk" >
+  <project path="build/make" name="platform_build" remote="staging" groups="pdk" revision="elevenstaging" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />

@@ -51,7 +51,7 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" revision="lineage-17.1" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" revision="lineage-17.1" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" revision="lineage-17.1" />
-  <project path="external/bash" name="android_external_bash" remote="los" revision="lineage-17.1" />
+  <project path="external/bash" name="android_external_bash" remote="los" revision="lineage-18.0" />
   <project path="external/connectivity" name="android_external_connectivity" remote="los" revision="lineage-17.1" />
   <project path="external/exfat" name="android_external_exfat" remote="los" revision="lineage-17.1" />
   <project path="external/htop" name="android_external_htop" remote="los" revision="lineage-17.1" />

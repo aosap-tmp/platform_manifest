@@ -104,4 +104,6 @@
   <!-- Bootable -->
   <remove-project name="platform/bootable/recovery" />
 
+  <!-- External -->
+  <remove-project name="platform/external/selinux" />
 </manifest>

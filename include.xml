@@ -56,4 +56,7 @@
   <!-- External -->
   <project path="external/selinux" name="platform_external_selinux" remote="staging" />
 
+  <!-- Apps -->
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="staging" />
+
 </manifest>

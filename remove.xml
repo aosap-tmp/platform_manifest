@@ -111,4 +111,8 @@
 
   <!-- External -->
   <remove-project name="platform/external/selinux" />
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+
 </manifest>

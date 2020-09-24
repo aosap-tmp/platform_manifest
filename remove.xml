@@ -111,6 +111,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinycompress" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />

@@ -116,4 +116,7 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
 
+  <!-- Tools -->
+  <remove-project name="platform/tools/metalava" />
+
 </manifest>

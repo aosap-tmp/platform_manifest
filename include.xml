@@ -67,4 +67,7 @@
   <!-- Tools -->
   <project path="tools/metalava" name="platform_tools_metalava" remote="staging" />
 
+  <!-- Services -->
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="staging" />
+
 </manifest>

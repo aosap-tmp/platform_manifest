@@ -116,6 +116,7 @@
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Launcher3" />
 
   <!-- Tools -->
   <remove-project name="platform/tools/metalava" />

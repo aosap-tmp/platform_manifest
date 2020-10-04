@@ -29,6 +29,10 @@
            fetch="https://github.com/ArrowOS/"
            revision="refs/heads/arrow-11.0" />
 
+  <remote name="awaken"
+           fetch="https://github.com/Project-Awaken/"
+           revision="refs/heads/11" />
+
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />

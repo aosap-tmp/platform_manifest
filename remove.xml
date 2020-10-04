@@ -83,6 +83,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/libufdt" />
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />

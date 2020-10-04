@@ -27,6 +27,7 @@
   <project path="system/qcom" name="platform_system_qcom" remote="staging" />
   <project path="system/libufdt" name="platform_system_libufdt" remote="staging" />
   <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" remote="staging" />
+  <project path="system/incremental_delivery" name="platform_system_incremental_delivery" remote="staging" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="staging" />

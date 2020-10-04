@@ -29,6 +29,7 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="staging" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="staging" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="staging" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="staging" />
 
   <!-- Vendor -->
   <project path="vendor/aosap" name="platform_vendor_aosap" remote="staging" />

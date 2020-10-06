@@ -848,8 +848,9 @@
 
   <!-- AOSAP -->
 
-  <include name="remove.xml" />
-  <include name="include.xml" />
-  <include name="los.xml" />
-  <include name="hardware.xml" />
+  <include name="snippets/remove.xml" />
+  <include name="snippets/include.xml" />
+  <include name="snippets/los.xml" />
+  <include name="snippets/hardware.xml" />
+  <include name="snippets/aosap.xml" />
 </manifest>

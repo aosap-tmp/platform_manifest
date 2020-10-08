@@ -65,6 +65,8 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="staging" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="staging" />
   <project path="packages/apps/AndromedaSettings" name="platform_packages_apps_Andromeda" remote="staging" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="staging" />
+
 
   <!-- Tools -->
   <project path="tools/metalava" name="platform_tools_metalava" remote="staging" />

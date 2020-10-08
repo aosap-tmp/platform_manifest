@@ -71,5 +71,6 @@
 
   <!-- Services -->
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="staging" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="staging" />
 
 </manifest>

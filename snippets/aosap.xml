@@ -2,11 +2,11 @@
 <manifest>
 
   <!-- Manifest -->
-  <project path="manifest" name="platform_manifest" remote="staging" />
+  <project path="manifest" name="platform_manifest" remote="aosap" />
 
   <!-- Build -->
-  <project path="bionic" name="platform_bionic" remote="staging" />
-  <project path="build/make" name="platform_build" remote="staging" groups="pdk" revision="elevenstaging" >
+  <project path="bionic" name="platform_bionic" remote="aosap" />
+  <project path="build/make" name="platform_build" remote="aosap" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -15,65 +15,65 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="platform_build_soong" remote="staging" groups="pdk,tradefed" >
+  <project path="build/soong" name="platform_build_soong" remote="aosap" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <!-- System -->
-  <project path="system/core" name="platform_system_core" remote="staging" />
-  <project path="system/bt" name="platform_system_bt" remote="staging" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="staging" />
-  <project path="system/qcom" name="platform_system_qcom" remote="staging" />
-  <project path="system/libufdt" name="platform_system_libufdt" remote="staging" />
-  <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" remote="staging" />
-  <project path="system/incremental_delivery" name="platform_system_incremental_delivery" remote="staging" />
+  <project path="system/core" name="platform_system_core" remote="aosap" />
+  <project path="system/bt" name="platform_system_bt" remote="aosap" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosap" />
+  <project path="system/qcom" name="platform_system_qcom" remote="aosap" />
+  <project path="system/libufdt" name="platform_system_libufdt" remote="aosap" />
+  <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" remote="aosap" />
+  <project path="system/incremental_delivery" name="platform_system_incremental_delivery" remote="aosap" />
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="platform_frameworks_base" remote="staging" />
-  <project path="frameworks/av" name="platform_frameworks_av" remote="staging" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="staging" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="staging" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="aosap" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="aosap" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="aosap" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aosap" />
 
   <!-- Vendor -->
-  <project path="vendor/aosap" name="platform_vendor_aosap" remote="staging" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="staging"/>
+  <project path="vendor/aosap" name="platform_vendor_aosap" remote="aosap" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosap"/>
 
   <!-- Hardware -->
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="staging" />
-  <project path="hardware/aosap/interfaces" name="platform_hardware_aosap_interfaces" remote="staging" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="aosap" />
+  <project path="hardware/aosap/interfaces" name="platform_hardware_aosap_interfaces" remote="aosap" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/abi-dumps/vndk" name="platform_prebuilts_abi-dumps_vndk" remote="staging" />
+  <project path="prebuilts/abi-dumps/vndk" name="platform_prebuilts_abi-dumps_vndk" remote="aosap" />
 
   <!-- Device -->
-  <project path="device/aosap/sepolicy" name="platform_device_aosap_sepolicy" remote="staging" />
-  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="staging" />
-  <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="staging" />
-  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="staging" />
+  <project path="device/aosap/sepolicy" name="platform_device_aosap_sepolicy" remote="aosap" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="aosap" />
+  <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="aosap" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="aosap" />
 
   <!-- Bootable -->
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="staging" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosap" />
 
   <!-- External -->
-  <project path="external/json-c" name="platform_external_json-c" remote="staging" />
-  <project path="external/selinux" name="platform_external_selinux" remote="staging" />
-  <project path="external/tinycompress" name="platform_external_tinycompress" remote="staging" />
+  <project path="external/json-c" name="platform_external_json-c" remote="aosap" />
+  <project path="external/selinux" name="platform_external_selinux" remote="aosap" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosap" />
 
   <!-- Apps -->
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="staging" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="staging" />
-  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="staging" />
-  <project path="packages/apps/AndromedaSettings" name="platform_packages_apps_AndromedaSettings" remote="staging" />
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="staging" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosap" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="aosap" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="aosap" />
+  <project path="packages/apps/AndromedaSettings" name="platform_packages_apps_AndromedaSettings" remote="aosap" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosap" />
 
 
   <!-- Tools -->
-  <project path="tools/metalava" name="platform_tools_metalava" remote="staging" />
+  <project path="tools/metalava" name="platform_tools_metalava" remote="aosap" />
 
   <!-- Services -->
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="staging" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="staging" />
-  <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="staging" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosap" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosap" />
+  <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="aosap" />
 
 </manifest>
